@@ -1,0 +1,26 @@
+{
+  "name": "collaborative-rich-text-editor-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kannndev/Collaborative-rich-text-editor-server.git"
+  },
+  "author": "Kannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kannndev/Collaborative-rich-text-editor-server/issues"
+  },
+  "homepage": "https://github.com/Kannndev/Collaborative-rich-text-editor-server#readme",
+  "dependencies": {
+    "@teamwork/websocket-json-stream": "^2.0.0",
+    "rich-text": "^4.1.0",
+    "sharedb": "^1.4.1",
+    "ws": "^7.3.1"
+  }
+}
